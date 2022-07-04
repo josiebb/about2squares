@@ -1,0 +1,31 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+
+.container {
+  scroll-snap-type: x mandatory;
+  scroll-padding: 50%;
+}
+.page {
+  font-weight: 500;
+  display: flex;
+  width: 600px;
+  height: 750px;
+  position: relative;
+  outline: 1px dotted black;
+}
+
+.panel-square{
+  margin: 10% 10%;
+  outline: 2px solid black;
+  position: absolute;
+  height: 63%;
+  width: 80%;
+}
+body {
+  background-color: white;
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+}
